@@ -1,9 +1,9 @@
 name: "Airport Checkin"
 
-on:
-  schedule:
-    - cron: "41 11 * * *"  # scheduled at 11:41 (UTC+8) everyday
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: "41 11 * * *"  # scheduled at 11:41 (UTC+8) everyday
+#   workflow_dispatch:
 
 env:
   RUN_ENV: 'prod'
